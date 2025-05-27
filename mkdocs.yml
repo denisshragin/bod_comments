@@ -2,13 +2,17 @@ site_name: Commentaires
 site_url: https://denisshragin.github.io/bod_comments/
 nav:
   - DBO congélation: 'index.md'
-  - DBO inter-paramètres: 'inter-param.md'
+  - DBO inter-paramètres: 'inter_param.md'
 theme: 
   name: material
   features:
   - navigation.tabs
   - navigation.tabs.sticky
   - content.code.copy
+
+  palette:
+    primary: deep orange
+
 copyright: Copyright &copy; 2025  Denis Shragin
 
 markdown_extensions:
